@@ -1,0 +1,102 @@
+/*Level 2 - Task 6 - Online Portfolio*/
+/*Created by: Byron Geo*/
+/*Created on: 02/04/2020*/
+/*Description: CSS file to style all the elements of my first online portfolio.*/
+
+.container {
+    text-align: center;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Alien-Encounters-Regular.ttf);
+}
+
+
+#mainPic {
+    position: relative;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 0px !important;
+}
+
+.mainContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: myFirstFont;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px !important;
+}
+
+#moreBtn {
+    background-color: Transparent;
+    color: white;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-top: 10px;
+    margin-bottom: 0px !important;
+}
+
+.navbar {
+    margin-top: -20px !important;
+    background-color: black;
+}
+
+.nav-link {
+    font-family: myFirstFont;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #793e6d;
+}
+
+.nav-item {
+    padding-right: 120px;
+}
+
+#homeLink {
+    padding-left: 100px;
+}
+
+.headings {
+    font-family: myFirstFont;
+    padding-top: 50px;
+    text-decoration: underline;
+}
+
+.contactBtn {
+    font-size: 50px;
+    color: white;
+}
+
+.contactBtn:hover {
+    color: #793e6d;
+}
+
+.navbar-text {
+    color: white;
+    text-align: center;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+}
